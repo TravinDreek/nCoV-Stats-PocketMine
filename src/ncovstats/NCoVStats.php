@@ -13,7 +13,7 @@ use pocketmine\Server;
 class NCoVStats extends PluginBase {
 
 	public function onEnable() : void {
-		require('VirusUtils.php');
+		require_once('VirusUtils.php');
 		$this->getLogger()->info('Enabled nCoVStats.');
 	}
 
