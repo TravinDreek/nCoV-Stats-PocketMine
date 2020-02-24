@@ -31,7 +31,6 @@ class NCoVStats extends PluginBase {
 			}
 
 			public function onRun(int $currentTick) : void{
-				var_dump($this->args);
 				if(count($this->args) < 1) {
 					$this->sender->sendMessage('§6正在获取数据中...');
 					$overall = virus_overall();
